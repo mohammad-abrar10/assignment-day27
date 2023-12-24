@@ -1,0 +1,201 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.page1{
+  background-color: rgba(72, 215, 124, 0.52);
+  width: 1000px;
+  height: 750px;
+  margin: 20px;
+  border-radius: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box{
+  padding: 200px 0 80px 80px;
+}
+.header{
+  font-size: 30px;
+  width: 100px;
+}
+.text{
+  font-size: 15px;
+  margin-top: 20px;
+}
+.btn button{
+  background-color: rgb(254, 254, 254);
+ margin-top: 30px;
+ height: 40px;
+ width: 200px;
+ border-radius: 50px;
+ border-style: none;
+ font-size: 18px;
+ font-weight: bolder;
+}
+.page2{
+  width: 1000px;
+  height: 500px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.header2 h1{
+  margin: 40px 0px 15px 50px;
+}
+.header2 h3{
+  color: rgb(127, 124, 124);
+  font-size: 20px;
+  width: 450px;
+  margin: 0 0 45px 50px ;
+}
+.profiles{
+  height: 230px;
+  display: flex;
+
+}
+.profile{
+  width: 150px;
+  height: 150px;
+  margin-left: 150px;
+}
+.profile-img{
+  background-color: rgb(22, 36, 65);
+  border: 3px solid rgb(0, 0, 0);
+  height: 150px;
+  width: 150px;
+  border-radius: 60%;
+}
+.footer{
+  border-top: 1px solid black;
+  height: 80px;
+}
+.see-profiles{
+  text-decoration: none;
+  color: rgb(86, 170, 233);
+  font-size: 20px;
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+.page3{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 1000px;
+  margin: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.bg-image{
+  width: 1000px;
+  height: 300px;
+  border-radius: 20px 20px 0 0;
+}
+.top{
+  color: rgb(127, 124, 124);
+  height: 80px;
+  padding: 30px 0 10px 50px;
+  font-size: 15px;
+}
+.title{
+  height: 100px;
+}
+.title-text{
+  padding: 0px 0 10px 50px;
+  font-size: 40px;
+  width: 580px;
+}
+.content{
+  color: rgb(181, 174, 174);
+  margin: 50px;
+  height: 150px;
+  word-spacing: 3px;
+  font-size: 30px;
+}
+.page3-btn{
+  background-color: rgb(254, 254, 254);
+  margin: 0px 50px 50px 50px;
+  height: 50px;
+  width: 200px;
+  border: 1px solid rgb(137, 133, 133);
+  border-radius: 5px;
+  font-size: 20px;
+  color: rgb(62, 106, 228);
+}
+.page4{
+  width: 1000px;
+  margin: 20px;
+  border-radius: 20px;
+  border-top: 2px solid black;
+  display: flex;
+  justify-content: center;
+}
+.box-container{
+  width: 350px;
+  text-align: center;
+  margin: 80px;
+}
+.box-container h1{
+ margin: 20px;
+ font-size: 40px;
+}
+.box-container h2{
+  font-size: 15px;
+}
+.form{
+  margin-top: 20px;
+}
+.input-container {
+  margin-top: 25px;
+  position: relative;
+ }
+ .input {
+  padding: 10px 0;
+  width: 70%;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+ }
+ .label {
+  position: absolute;
+  top: 0;
+  left: 70px;
+  color: rgb(64, 59, 59);
+  padding: 10px 0;
+  font-size: 14px;
+  pointer-events: none;
+  transition: all 0.3s ease;
+ }
+ .input-container:focus-within .label {
+  font-size: 10px;
+  top: -25px;
+  left: 70px;
+ }
+ .form-btn{
+  background-color: black;
+  color: aliceblue;
+  font-size: 10px;
+  margin-top: 25px;
+  width: 50%;
+  height: 40px;
+  border-radius: 20px;
+  border-style: none;
+  letter-spacing: 2px;
+ }
+ .forget-password{
+  padding-top: 30px;
+  color: rgb(106, 102, 102);
+ }
+ .forget-password a{
+  color: rgb(37, 34, 34);
+ }
+
+.forgot{
+  margin-top: 5px;
+}
+.text-area-bottom{
+  margin: 30px 0;
+  color: darkgray;
+  font-size: 15px;
+}
+.text-area-bottom a{
+  color: darkgray;
+}
